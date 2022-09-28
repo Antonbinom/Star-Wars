@@ -1,7 +1,7 @@
-import {createRouter, createWebHashHistory} from "vue-router";
-import HomePage from './pages/home';
-import AboutPage from './pages/about';
-import NotFound from './pages/page404';
+import { createRouter, createWebHashHistory } from "vue-router";
+import HomePage from './pages/home.vue';
+import AboutPage from './pages/about.vue';
+import NotFound from './pages/page404.vue';
 
 const routerHistory = createWebHashHistory();
 

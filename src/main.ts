@@ -1,7 +1,7 @@
 import App from './App.vue'
 import routers from './routes';
-import {store} from './store';
-import {createApp} from 'vue'
+import { store } from './store';
+import { createApp } from 'vue'
 
 import '@/assets/scss/main.scss';
 
