@@ -1,4 +1,4 @@
-# vue-cli-template
+# Star-Wars
 
 ## Project setup
 ```
