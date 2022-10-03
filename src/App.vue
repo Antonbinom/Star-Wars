@@ -1,18 +1,28 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+	<div class="wrapper">
+		<Header />
+		<div class="wrapper-content">
+			<div class="container">
+				<router-view />
+			</div>
+		</div>
+		<Footer />
+	</div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+import Header from "@/components/Header.vue"
+import Footer from "@/components/Footer.vue"
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
+export default {
+	components: {Header, Footer},
+};
 </script>
+
+<style lang="scss">
+
+</style>
+
 
 <style lang="scss">
 #app {

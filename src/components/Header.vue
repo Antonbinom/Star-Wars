@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { app, links } from "@/_config.js";
+import { app, links } from "@/_config.ts";
 export default {
   data() {
     return {
